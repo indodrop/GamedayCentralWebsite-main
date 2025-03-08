@@ -1,0 +1,264 @@
+html {
+  font-size: 100%;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  font-family: Times, sans-serif;
+}
+
+header {
+    background-color: #162d50;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header img {
+  max-width: 10%;
+  height: auto;
+  float: left;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ff0000;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #800000;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #666666;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.page_title {
+  background-color: #0033A0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 0em 1em 0.5em 1em;
+  margin: 0px 30px 0px 30px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.page_title img {
+  display: block;
+  border-radius: 8px;
+  width: 50%;
+  margin: auto;
+}
+
+.contentbody {
+  background-color: #ffffff;
+  display: grid;
+  grid: auto auto/auto auto;
+  grid-gap: 10px;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
+}
+
+#top-left {
+  background-color: #b3b3b3;
+}
+
+#top-left h2 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #ff0000;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+.top-left-paragraph-one {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+.top-left-paragraph-two {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+.top-left-image-one{
+  display: block;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin: auto;
+}
+
+.top-left-image-two{
+  display: block;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin: auto;
+}
+
+#top-right img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
+  width: 95%;
+}
+
+#top-right h2 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #ff0000;
+  color: white;
+  margin: 0.5em 1em 1em 1em;
+}
+
+#top-right p {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+.schoolinfo {
+  background-color: #b3b3b3;
+  margin: 0em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
+}
+
+#bottom-left {
+  background-color: #b3b3b3;
+}
+
+#bottom-left h2 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #ff0000;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+#bottom-left p {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+#bottom-right {
+  background-color: #b3b3b3;
+}
+
+#bottom-right h2 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #ff0000;
+  color: white;
+  margin: 1em 1em 1em 1em;
+
+}
+
+#bottom-right p {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+footer {
+  background-color: #162d50;
+  color: #fff;
+  display: inline-block;
+}
+
+footer h2 {
+  color: #ff0000;
+  padding: 0 1em 0 1em;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+footer address {
+  padding: 0 2em 0 2em;
+  font-size: 20px;
+  float: left;
+}
+
+footer img {
+  height: 10%;
+  width: 10%;
+  float: right;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+}
